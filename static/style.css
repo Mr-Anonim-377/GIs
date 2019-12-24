@@ -1,0 +1,64 @@
+html, body, .container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#viewDiv {
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 95;
+}
+
+body {
+    background-color: black;
+}
+
+.body_background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    z-index: 99;
+    position: absolute;
+    background-color: rgba(249, 91, 244, 0.38);
+    width: 600px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: arial;
+}
+
+
+.form button {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.form h1 {
+    padding: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+.helpForm_h1 {
+
+}

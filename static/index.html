@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ArcGIS JavaScript Tutorials: Create a Starter App</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.arcgis.com/4.12/"></script>
+
+
+</head>
+<body>
+
+
+<div class='container'>
+    <div class="form">
+        <div id="helloForm">
+            <h1>Студенческая интерактивно-информационная карта Тимирязевской академии</h1>
+            <button class="btn_OK">OK</button>
+            <button class="btn_Help">Правила</button>
+        </div>
+        <div id="helpForm" style="display: none">
+            <h1 style="padding: 30px" >Дорогой пользователь</h1>
+            <p id="help_text">
+            </p>
+            <button class="btn_Last">Назад</button>
+            <button class="btn_Next">Вперед</button>
+        </div>
+    </div>
+</div>
+
+<div id="viewDiv"></div>
+<script src="../dinamic/ArgisControll.js"></script>
+<script src="../dinamic/ActiveForButton.js"></script>
+
+</body>
+</html>
