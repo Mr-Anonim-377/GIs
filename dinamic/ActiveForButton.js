@@ -4,6 +4,7 @@ var btn_Last = document.querySelector(".btn_Last");
 var btn_Next = document.querySelector(".btn_Next"),
     form = document.querySelector(".form");
 container = document.querySelector(".container");
+var blure = document.querySelector(".blur");
 bodyr = document.querySelector("body");
 var HelloForm = document.querySelector("#helloForm");
 var HelpText = document.querySelector("#help_text");
@@ -18,6 +19,7 @@ var btnOk = function () {
     form.style.display = "none";
     container.style.display = "none";
     bodyr.classList.remove('body_background');
+    blure.style.filter = 'blur(0px)'
 };
 
 btn_OK.addEventListener("click", () => {

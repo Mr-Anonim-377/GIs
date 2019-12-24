@@ -62,3 +62,7 @@ body {
 .helpForm_h1 {
 
 }
+
+.blur {
+    filter: blur(15px);
+}
