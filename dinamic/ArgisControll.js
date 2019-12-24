@@ -60,7 +60,7 @@ map_gis.style.height = "100%";
                     },
                     popupTemplate: {
                         title: "{name}",
-                        content: "Оценка - {mark};Описание - {description};"
+                        content: "Оценка - {mark};          {description};"
                     }
                 });
                 graphicsLayer.add(g);
